@@ -54,7 +54,18 @@ let num1,num2,num3
 
 let gameCounter = 100
 ++gameCounter;
-console.log(gameCounter);
+//console.log(gameCounter);
+
+let x = "rakshit"
+let array = ["ankit","priyanshu"]
+let array1 = array  // here array is an reference to array1
+array.push("rakshit") // this means that even after we modify the data in array  by adding new items, 
+                      // logging array1 will show the new items added to array,this behaviour is expected from
+                      // non primtive data types.
+
+console.log(x.toUpperCase());
+console.log(array1);
+
 
 
 
